@@ -356,7 +356,7 @@ function singleQuoteAttributeValue(c){
     }else if(c == "\u0000"){
 
     }else if(c == EOF){
-
+        console.log('123');
     }else{
         currentAttribute.value += c;
         return doubleQuoteAttributeValue;
